@@ -17,16 +17,16 @@ const movies = [
 ];
 
 const trailers = [
-  { title: "Trailer 1", videoId: "F3OxA9Cz17A" },
-  { title: "Trailer 2", videoId: "nsdjzHqlb_Q" },
-  { title: "Trailer 3", videoId: "0JZ8WGVSrwM" },
-  { title: "Trailer 4", videoId: "D0hv6p6ykkU" },
-  { title: "Trailer 5", videoId: "h2lVX71L_3A" },
-  { title: "Trailer 6", videoId: "aCGAn5DvngY" },
-  { title: "Trailer 7", videoId: "kjTHrbPaDEU" },
-  { title: "Trailer 8", videoId: "YxL9wTkEgSY" },
-  { title: "Trailer 9", videoId: "Ujs1Ud7k49M" },
-  { title: "Trailer 10", videoId: "pNI58a-njrs" },
+  { videoId: "F3OxA9Cz17A" },
+  { videoId: "nsdjzHqlb_Q" },
+  { videoId: "0JZ8WGVSrwM" },
+  { videoId: "D0hv6p6ykkU" },
+  { videoId: "h2lVX71L_3A" },
+  { videoId: "aCGAn5DvngY" },
+  { videoId: "kjTHrbPaDEU" },
+  { videoId: "YxL9wTkEgSY" },
+  { videoId: "Ujs1Ud7k49M" },
+  { videoId: "pNI58a-njrs" },
   // Adicione mais trailers conforme necessário
 ];
 
@@ -55,7 +55,6 @@ const Main = () => {
           <a key={index} href={`/${movie.title}`}>
             <div className="movie-card">
               <img src={movie.image} alt={movie.title} />
-              <div className="movie-title">{movie.title}</div>
             </div>
           </a>
         ))}
