@@ -1,8 +1,11 @@
-# React + Vite
+# Netflix / React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h2>Página na tela de computadores:</h2>
 
-Currently, two official plugins are available:
+  ![home-page](https://github.com/Guilherme-TI/Netflix-react/assets/90113778/ab62c32d-8d08-49f6-a2df-fed5ee87579b)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h2>Página na tela de celulares:</h2>
+
+![home-celular](https://github.com/Guilherme-TI/Netflix-react/assets/90113778/7b2d4e9a-cc50-4cfd-ad66-565aa86dbc12)
+
+
